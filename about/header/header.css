@@ -1,7 +1,7 @@
 .header__nav-list .header__li--about{
-    background-color: rgb(41, 197, 230);
-    border-top: 2px solid rgb(41, 197, 230);
-    border-bottom: 2px solid rgb(41, 197, 230);
+    background-color: var(--color-primary-blue);
+    border-top: 2px solid var(--color-primary-blue);
+    border-bottom: 2px solid var(--color-primary-blue);
 }
 
 .header__nav-list .header__li--about a{

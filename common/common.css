@@ -7,7 +7,7 @@
 body {
     background-image: url("../common/img/bg.png");
     background-repeat: repeat;
-    border-top: 5px solid rgb(126, 126, 126);
+    border-top: 5px solid var(--color-dark-grey);
 }
 
 .document-wrapper {

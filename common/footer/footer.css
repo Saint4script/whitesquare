@@ -1,5 +1,18 @@
+:root {
+    --color-dark-grey: rgb(126, 126, 126);
+    --color-grey-common: rgb(145, 145, 145);
+    --color-grey-light: rgb(208, 208, 208);
+    --color-border-primary: rgb( 231, 231, 231);
+    --color-grey-lighter: rgb(243, 243, 243);
+
+    --color-white: rgb(255, 255, 255);
+
+    --color-primary-blue: rgb(41, 197, 230);
+    --color-primary-dark-blue: rgb(29, 142, 166);
+}
+
 .footer-wrapper {
-    background-color: rgb(126, 126, 126);
+    background-color: var(--color-dark-grey);
 }
 
 .footer {
@@ -17,7 +30,7 @@
     color: #fff;
     text-transform: uppercase;
     font-weight: 300;
-    border-bottom: 1px solid rgb(145, 145, 145);
+    border-bottom: 1px solid var(--color-grey-common);
 }
 
 .twitter-feed__date {
@@ -28,7 +41,7 @@
 }
 
 .twitter-feed__text {
-    color:rgb(208, 208, 208);
+    color: var(--color-grey-light);
     font-size: 0.9em;
 }
 
@@ -42,7 +55,7 @@
 .sitemap__wrapper a{
     text-decoration: none;
     text-transform: capitalize;
-    color:rgb(208, 208, 208);
+    color:var(--color-grey-light);
     font-weight: 300;
 }
 
@@ -55,7 +68,7 @@
 }
 
 .footer__logo p {
-    color:rgb(208, 208, 208);
+    color:var(--color-grey-light);
     font-size: small;
     font-weight: 300;
 }
