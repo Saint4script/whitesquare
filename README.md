@@ -1,0 +1,1 @@
+# whitesquare training project
