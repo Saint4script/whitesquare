@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;;
+}
+
+body {
+    background-image: url("../common/img/bg.png");
+    background-repeat: repeat;
+    border-top: 5px solid rgb(126, 126, 126);
+}
+
+.document-wrapper {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding-top: 1.5em;
+}
+
+.bg-mask {
+    min-height: 100vh;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.9);
+}

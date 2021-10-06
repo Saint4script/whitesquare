@@ -1,0 +1,111 @@
+/* COMMON */
+
+header {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: rgb(178, 178, 178);
+}
+
+/* LOGO */
+
+.header__logo-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* SEARCH */
+
+.header__search-label--sr {
+    display: none;
+}
+
+.header__search-field {
+    background-color: #f3f3f3;
+    border: 1px solid #e7e7e7;
+    height: 30px;
+    color: #b2b2b2;
+    padding: 0 10px;
+    vertical-align: top;
+    margin: none;
+}
+
+.header__search-field::placeholder {
+    color: rgb(178, 178, 178);
+}
+
+.header__search-btn {
+    width: 42px;
+    height: 32px;
+
+    border: none;
+    margin: none;
+    margin-left: -5px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: rgb(41, 197, 230);
+}
+
+/* NAVIGATION */
+
+.header__nav-list {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-top: 22px;
+}
+
+.header__nav-list li {
+    display: block;
+    padding: 0.5em;
+    text-align: center;
+    background-color: rgb(243, 243, 243);
+    border-top: 2px solid rgb(231, 231, 231);
+    border-bottom: 2px solid rgb(231, 231, 231);
+}
+
+.header__nav-list li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: rgb(178, 178, 178);
+}
+
+.header__nav-list li:first-child {
+    border-left: 2px solid rgb(231, 231, 231);
+}
+
+.header__nav-list li:last-child {
+    border-right: 2px solid rgb(231, 231, 231);
+}
+
+/* HEADING */
+
+.header__heading {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.header__heading h1 {
+    text-transform: uppercase;
+    color:rgb(126, 126, 126);
+    position: relative;
+    display: flex;
+    flex-direction: row; 
+    font-size: 2.5em;
+    padding-top: 0;
+}
+
+.header__heading h1::before {
+    content: "";
+    background: repeating-linear-gradient(-60deg, rgb(201, 201, 201) 0, rgb(201, 201, 201) 1px, transparent 1px, transparent 5px);
+    color: rgba(126, 126, 126, 0);
+    flex-grow: 1;
+    margin-right: 0.5em;
+}
+
+.header__heading h1::after {
+    content: "";
+    background: repeating-linear-gradient(-60deg, rgb(201, 201, 201) 0, rgb(201, 201, 201) 1px, transparent 1px, transparent 5px);
+    color: rgba(126, 126, 126, 0);
+    flex-grow: 8;
+    margin-left: 0.5em;
+}

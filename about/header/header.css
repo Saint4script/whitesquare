@@ -1,0 +1,10 @@
+.header__nav-list .header__li--about{
+    background-color: rgb(41, 197, 230);
+    border-top: 2px solid rgb(41, 197, 230);
+    border-bottom: 2px solid rgb(41, 197, 230);
+}
+
+.header__nav-list .header__li--about a{
+    color: #fff;
+    text-decoration: none;
+}

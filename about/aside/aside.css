@@ -1,0 +1,30 @@
+.aside__nav-block {
+    border-collapse: collapse;
+    border: 1px solid rgb(231, 231, 231);
+}
+
+.aside__li {
+    list-style-type: none;
+    border-bottom: 1px solid rgb(231, 231, 231);
+    border-collapse: collapse;
+    background-color: rgb(243, 243, 243);
+    padding: 13px 12px 12px;
+}
+
+.aside__li:before {
+    content: '';
+    display: inline-block;
+    height: 0.6em;
+    width: 0.6em;
+    vertical-align: baseline;
+    background-color: rgb(143, 143, 143);
+    margin-right: 0.8em;
+}
+
+.aside__li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(143, 143, 143);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}

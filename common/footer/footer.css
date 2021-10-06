@@ -1,0 +1,94 @@
+.footer-wrapper {
+    background-color: rgb(126, 126, 126);
+}
+
+.footer {
+    width: 80%;
+    margin: auto;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    column-gap: 1em;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+}
+
+.footer h3{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    border-bottom: 1px solid rgb(145, 145, 145);
+}
+
+.twitter-feed__date {
+    margin-top: 0.7em;
+    color:rgb(180, 174, 174);
+    text-decoration: underline;
+    font-size: small;
+}
+
+.twitter-feed__text {
+    color:rgb(208, 208, 208);
+    font-size: 0.9em;
+}
+
+.sitemap__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 0.7em 0;
+}
+
+.sitemap__wrapper a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color:rgb(208, 208, 208);
+    font-weight: 300;
+}
+
+.footer__logo {
+    justify-self: flex-end;
+}
+
+.footer__logo img {
+    margin-top: 10%;
+}
+
+.footer__logo p {
+    color:rgb(208, 208, 208);
+    font-size: small;
+    font-weight: 300;
+}
+
+.social__grid-main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 1em;
+}
+
+.grid-main__item img{
+    display: block;
+    margin: auto;
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.social__grid-sub {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 0.5em;
+    column-gap: 0.2em;
+}
+
+.footer__social {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.social__grid-sub img{
+    display: block;
+    margin: auto;
+    width: 1.5em;
+    height: 1.5em;
+}
