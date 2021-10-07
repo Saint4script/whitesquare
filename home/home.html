@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="../common/common.css">
     <link rel="stylesheet" href="../common/header/header.css">
-    <link rel="stylesheet" href="../common/footer/footer.css">
     <link rel="stylesheet" href="../common/main-wrapper/main-wrapper.css">
+    <link rel="stylesheet" href="../common/footer/footer.css">
+    <link rel="stylesheet" href="../common/common.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;700&display=swap" rel="stylesheet">
     <title>About us</title>
@@ -18,33 +18,30 @@
 <body>
     <div class="bg-mask">
         <div class="document-wrapper">
-            <header>
-                <div class="header__logo-wrapper">
-                    <div class="header__logo">
-                        <img src="../common/img/logo.png" alt="logo">
-                    </div>
-
-                    <form class="header__search-form">
-                        <label class="header__search-label--sr" for="search">Поиск</label>
-                        <input class="header__search-field" name="search" type="text" placeholder="Search...">
-                        <button class="header__search-btn">go</button>
-                    </form>
-                </div>
-
-                <nav class="header__nav header__nav--about">
-                    <ul class="header__nav-list">
-                        <li><a href="#">home</a></li>
-                        <li class="header__li--about"><a href="#">about us</a></li>
-                        <li><a href="#">services</a></li>
-                        <li><a href="#">partners</a></li>
-                        <li><a href="#">customers</a></li>
-                        <li><a href="#">projects</a></li>
-                    </ul>
-                </nav>
-                <div class="header__heading">
-                    <h1>home</h1>
-                </div>
-            </header>
+           <header>
+               <div class="logo-search-container">
+                   <div class="header__logo">
+                       <img src="../common/img/logo.png" alt="logo">
+                   </div>
+                   <form class="header__search-form">
+                       <label class="header__search-label--sr" for="search">Поиск</label>
+                       <input class="header__search-field" name="search" type="text" placeholder="Search...">
+                       <button class="header__search-btn">go</button>
+                   </form>
+               </div>
+               <nav class="header__nav">
+                   <ul class="header__nav-list">
+                       <li class="header__li header__li-active"><a href="#">home</a></li>
+                       <li class="header__li"><a href="#">about us</a></li>
+                       <li class="header__li"><a href="#">services</a></li>
+                       <li class="header__li"><a href="#">partners</a></li>
+                       <li class="header__li"><a href="#">customers</a></li>
+                       <li class="header__li"><a href="#">projects</a></li>
+                       <li class="header__li"><a href="#">careers</a></li>
+                       <li class="header__li"><a href="#">contacts</a></li>
+                   </ul>
+               </nav>
+           </header>
 
             <div class="main-wrapper">
                 <div class="main-wrapper__news-gallery">

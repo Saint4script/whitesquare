@@ -9,8 +9,6 @@
     <link rel="stylesheet" href="../common/footer/footer.css">
     <link rel="stylesheet" href="../common/main-wrapper/main-wrapper.css">
     <link rel="stylesheet" href="../common/common.css">
-    <link rel="stylesheet" href="about_common_styles.css">
-    <link rel="stylesheet" href="header/header.css">
     <link rel="stylesheet" href="aside/aside.css">
     <link rel="stylesheet" href="main-content/main-content.css">
 
@@ -21,19 +19,17 @@
     <div class="bg-mask">
         <div class="document-wrapper">
             <header>
-                <div class="header__logo-wrapper">
+                <div class="logo-search-container">
                     <div class="header__logo">
                         <img src="../common/img/logo.png" alt="logo">
                     </div>
-                    
                     <form class="header__search-form">
                         <label class="header__search-label--sr" for="search">Поиск</label>
                         <input class="header__search-field" name="search" type="text" placeholder="Search...">
                         <button class="header__search-btn">go</button>
                     </form>
                 </div>
-
-                <nav class="header__nav header__nav--about">
+                <nav class="header__nav">
                     <ul class="header__nav-list">
                         <li class="header__li"><a href="#">home</a></li>
                         <li class="header__li header__li-active"><a href="#">about us</a></li>
@@ -41,14 +37,16 @@
                         <li class="header__li"><a href="#">partners</a></li>
                         <li class="header__li"><a href="#">customers</a></li>
                         <li class="header__li"><a href="#">projects</a></li>
+                        <li class="header__li"><a href="#">careers</a></li>
+                        <li class="header__li"><a href="#">contacts</a></li>
                     </ul>
                 </nav>
-                <div class="header__heading">
-                    <h1>about us</h1>
-                </div>
             </header>
 
             <div class="main-wrapper">
+                <div class="main-wrapper__heading">
+                    <h1>about us</h1>
+                </div>
                 <aside class="aside">
                     <ul class="aside__nav-block">
                         <li class="aside__li"><a href="#">lorem ipsum</a></li>
@@ -97,64 +95,62 @@
                             commodo, ipsum eros condimentum leo, quis ornare lacus tellus vitae massa. Nunc ullamcorper
                             blandit nulla ut aliquet. Sed tincidunt elementum ante a rhoncus.
                         </p>
-                        <div class="main-content__gallery">
-                            <div class="gallery__item"></div>
-                            <div class="gallery__item"></div>
+                        <div class="main-gallery">
+                            <div class="main-gallery__item"></div>
+                            <div class="main-gallery__item"></div>
                         </div>
-                        <div class="main-content__team">
-                            <div class="team__header">
-                                <h2>our team</h2>
-                            </div>
-                            <div class="team-gallery">
-                                <div class="team-gallery__item">
+                        <div class="team">
+                            <h2 class="team__header">our team</h2>
+                            <div class="team__gallery">
+                                <div class="gallery__item">
                                     <img src="https://via.placeholder.com/4500x1400" alt="">
-                                    <p class="team-gallery__item-name">john doe</p>
-                                    <p class="team-gallery__item-pos">ceo</p>
+                                    <p class="gallery__item-name">john doe</p>
+                                    <p class="gallery__item-pos">ceo</p>
                                 </div>
-                                <div class="team-gallery__item">
+                                <div class="gallery__item">
                                     <img src="https://via.placeholder.com/4500x1400" alt="">
-                                    <p class="team-gallery__item-name">saundra pittsley</p>
-                                    <p class="team-gallery__item-pos">team lead</p>
+                                    <p class="gallery__item-name">saundra pittsley</p>
+                                    <p class="gallery__item-pos">team lead</p>
                                 </div>
-                                <div class="team-gallery__item">
+                                <div class="gallery__item">
                                     <img src="https://via.placeholder.com/4500x1400" alt="">
-                                    <p class="team-gallery__item-name">julio simser</p>
-                                    <p class="team-gallery__item-pos">senior developer</p>
+                                    <p class="gallery__item-name">julio simser</p>
+                                    <p class="gallery__item-pos">senior developer</p>
                                 </div>
-                                <div class="team-gallery__item">
+                                <div class="gallery__item">
                                     <img src="https://via.placeholder.com/4500x1400" alt="">
-                                    <p class="team-gallery__item-name">margery venuti</p>
-                                    <p class="team-gallery__item-pos">senior developer</p>
+                                    <p class="gallery__item-name">margery venuti</p>
+                                    <p class="gallery__item-pos">senior developer</p>
                                 </div>
-                                <div class="team-gallery__item">
+                                <div class="gallery__item">
                                     <img src="https://via.placeholder.com/4500x1400" alt="">
-                                    <p class="team-gallery__item-name">fernando tondrea</p>
-                                    <p class="team-gallery__item-pos">developer</p>
+                                    <p class="gallery__item-name">fernando tondrea</p>
+                                    <p class="gallery__item-pos">developer</p>
                                 </div>
-                                <div class="team-gallery__item">
+                                <div class="gallery__item">
                                     <img src="https://via.placeholder.com/100x100" alt="">
-                                    <p class="team-gallery__item-name">ericka nobriga</p>
-                                    <p class="team-gallery__item-pos">art director</p>
+                                    <p class="gallery__item-name">ericka nobriga</p>
+                                    <p class="gallery__item-pos">art director</p>
                                 </div>
-                                <div class="team-gallery__item">
+                                <div class="gallery__item">
                                     <img src="https://via.placeholder.com/100x100" alt="">
-                                    <p class="team-gallery__item-name">cody rouselle</p>
-                                    <p class="team-gallery__item-pos">senior ui designer</p>
+                                    <p class="gallery__item-name">cody rouselle</p>
+                                    <p class="gallery__item-pos">senior ui designer</p>
                                 </div>
-                                <div class="team-gallery__item">
+                                <div class="gallery__item">
                                     <img src="https://via.placeholder.com/100x100" alt="">
-                                    <p class="team-gallery__item-name">erik wollman</p>
-                                    <p class="team-gallery__item-pos">senior ui designer</p>
+                                    <p class="gallery__item-name">erik wollman</p>
+                                    <p class="gallery__item-pos">senior ui designer</p>
                                 </div>
-                                <div class="team-gallery__item">
+                                <div class="gallery__item">
                                     <img src="https://via.placeholder.com/100x100" alt="">
-                                    <p class="team-gallery__item-name">dona shoff</p>
-                                    <p class="team-gallery__item-pos">ux designer</p>
+                                    <p class="gallery__item-name">dona shoff</p>
+                                    <p class="gallery__item-pos">ux designer</p>
                                 </div>
-                                <div class="team-gallery__item">
+                                <div class="gallery__item">
                                     <img src="https://via.placeholder.com/100x100" alt="">
-                                    <p class="team-gallery__item-name">darryl brunton</p>
-                                    <p class="team-gallery__item-pos">ui designer</p>
+                                    <p class="gallery__item-name">darryl brunton</p>
+                                    <p class="gallery__item-pos">ui designer</p>
                                 </div>
                             </div>
                         </div>
@@ -165,7 +161,7 @@
         <div class="footer-wrapper">
             <div class="footer">
                 <div class="footer__twitter-feed">
-                    <h3>twitter feed</h3>
+                    <h3 class="twitter-feed__header">twitter feed</h3>
                     <p class="twitter-feed__date">23 oct</p>
                     <p class="twitter-feed__text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
